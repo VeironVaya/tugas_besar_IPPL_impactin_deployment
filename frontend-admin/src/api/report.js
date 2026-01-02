@@ -6,7 +6,7 @@ import api from "./api";
 
 // Get reports by status: pending | resolved
 export const getReports = (status) => {
-  return api.get(`/admin/events/report/?status=${status}`);
+  return api.get(`/admin/events/report?status=${status}`);
 };
 
 // =======================
